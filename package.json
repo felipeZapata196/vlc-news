@@ -4,6 +4,8 @@
   "description": "a blog for practice",
   "main": "app.js",
   "scripts": {
+    "start": "node server.js",
+    "start:prod": "NODE_ENV=production nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Felipe Zapata",
@@ -22,5 +24,10 @@
     "path": "^0.12.7",
     "slugify": "^1.6.0",
     "validator": "^13.6.0"
+  },
+  "engines": {
+
+    "node": ">=12.13.0"
+
   }
 }
