@@ -1,0 +1,77 @@
+[
+    {
+      
+      "title": "Ensayo clasico sobre naturaleza",
+      "category": "science",
+      "large": 500,
+      "content": "",
+      "autor": "Marcos rosa",
+      "visits": 10,
+      "lectureTime": 3 ,
+      "likes": 37,
+      "rating": 5.5
+    }, 
+    {
+      
+        "title": "Ensayo sobre la productividad del tiempo",
+        "category": "scince",
+        "content": "",
+        "large": 500,
+        "autor": "Jairo varela",
+        "visits": 30,
+        "lectureTime": 4,
+        "likes": 10,
+        "rating": 4.2
+    }, 
+    {
+      
+        "title": "Ensayo sobre la majestuosidad de la música",
+        "category": "music",
+        "content": "",
+        "large": 430,
+        "autor": "Jairo varela",
+        "visits": 40,
+        "lectureTime": 3,
+        "likes": 25,
+        "rating": 5.9
+    },
+     {
+      
+        "title": "Breve biografia de Maria callas",
+        "category": "music",
+        "content": "",
+        "large": 800,
+        "autor": "Joseph martinez",
+        "visits": 98,
+        "lectureTime": 5,
+        "likes": 50,
+        "rating": 7.2
+      },
+      {
+      
+        "title": "El amor por conocer mundo",
+        "category": "phylosophy",
+        "content": "",
+        "large": 559,
+        "autor": "Fran medrano",
+        "visits": 200,
+        "lectureTime": 5,
+        "likes": 38,
+        "rating": 6.6
+      },
+      {
+      
+        "title": "El problema del trigo",
+        "category": "phylosophy",
+        "content": "",
+        "large": 300,
+        "autor": "Marcos rosa",
+        "visits": 130,
+        "lectureTime": 3,
+        "likes": 37,
+        "rating": 4.2
+      }
+
+]
+
+

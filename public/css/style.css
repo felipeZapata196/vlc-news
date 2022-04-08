@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+}
+.container {
+  margin-left: 18%;
+  margin-right: 18%;
+  background-color: white;
+  padding-top: 0;
+  margin-top: 0;
+}
+.background {
+  background-color: gainsboro;
+  height: max-content;
+}
+.navBar {
+  position: fixed;
+
+  width: 64%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navBarTitle {
+  color: black;
+  font-size: 2rem;
+  font-weight: 900;
+}
+.mainPage {
+  width: 100%;
+}
+
+.modulo1 {
+  width: 100%;
+  height: 50vh;
+}
+
+.modulo2 {
+  width: 33%;
+  height: 40vh;
+  display: inline-block;
+}
+.modulo5 {
+  width: 33%;
+  height: 30vh;
+  display: inline-block;
+}
+.moduloNoticia {
+  width: 100%;
+  height: 100vh;
+  padding-top: 200px;
+}
+.modulo3 {
+  width: 65%;
+  height: 80vh;
+  float: left;
+}
+
+.modulo4 {
+  width: 35%;
+  height: 40vh;
+  float: right;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.titular {
+  position: relative;
+  left: 1%;
+  bottom: 30%;
+  font-size: 4rem;
+  color: white;
+}
+.titulares-cabecera {
+  padding: 1.5rem;
+  margin-top: 2rem;
+  font-size: 1.6rem;
+}
+.titular {
+  height: 40%;
+  width: 100;
+}
+.foto {
+  height: 60%;
+  width: 100;
+}
+.titulo {
+  padding: 1rem;
+  padding-top: 1.5rem;
+  font-size: 1.3rem;
+}
+
+.titulo1 {
+  padding: 2rem;
+  padding-top: 9rem;
+  font-size: 3.5rem;
+}
+
+.footer {
+  padding-top: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #6e5656;
+}
+
+.footer p {
+  font-size: 12px;
+  color: #fff;
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+  text-decoration: none;
+}
