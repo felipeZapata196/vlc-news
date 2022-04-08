@@ -3,7 +3,7 @@ const Entrada = require('./../models/blogModel');
 const authController = require('./authController');
 const User = require('./../models/userModel');
 const ejs = require('ejs');
-const AppError =  require('./../utils/appError');
+const AppError =  require('./../utils/AppError');
 
 
 exports.prueba = async(req, res) => {
