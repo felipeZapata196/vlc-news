@@ -12,43 +12,41 @@
             <img class="image" src="/images/jc2.jpg"/>
             <a class="titular" style="color:white" href=""><%=entrada.title  %></a>
         </div>
-        <% }else{  %>
+      
     </a> 
-
+    <% }else{  %>
     <a class="link"  href="url">
 
         <div class="modulo5"><h2 class="titulares-cabecera">La UE cree que "en pocos meses" la mitad de las infecciones de COVID serán causadas por ómicron</h2></div>
     </a>
 
-    <% } %>
-   
-    <% }); %>
+ 
 </div>
 
 <div class= "mainPage">
 
-    <a class="link" href="/noticia/tebas">
+    <% entradaList.forEach(function(entrada, index) { %>
 
+        <% if(index==0){  %>
+    <a class="link" href="/noticia/tebas">        
     <div class="modulo3">
         <div class="foto"><img class="image" src="/images/tebas.jpg"/></div>
          <div class="titulo">La UE cree que "en pocos meses" la mitad de las infecciones de COVID serán causadas por ómLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
         </div>
     </a>
+     <% }else{  %>
 
     <a class="link" href="/noticia/interior">
    
-    <div class="modulo4">
-         <div class="foto"><img class="image" src="/images/interior.jpg"/></div>
-         <div class="titulo">La UE cree que "en pocos meses" la mitad de las infecciones de COVID serán causadas por óm</div>
-    </div>
+        <div class="modulo4">
+            <div class="foto"><img class="image" src="/images/interior.jpg"/></div>
+            <div class="titulo">La UE cree que "en pocos meses" la mitad de las infecciones de COVID serán causadas por óm</div>
+        </div>
     </a>
-
-    <a class="link" href="/noticia/manifestacion">
-    <div class="modulo4">
-        <div class="foto"><img class="image" src="/images/manifestacion.jpg"/></div>
-        <div class="titulo">Uno de los 'líderes' de los antivacunas de Italia contrae COVID-19 y pide desde el hospital "seguir la ciencia"</div>
-    </div>
-    </a>
+    <% } %>
+   
+    <% }); %>
+   
 </div>
 
 

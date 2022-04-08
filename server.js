@@ -15,6 +15,15 @@ mongoose
 })
 
 
-app.listen(3000, ()=>{
-    console.log("listen to the port 3000");
+
+
+
+const port = process.env.PORT || 3000;
+const server = app.listen(port, ()=>{
+  console.log(`App runing on port ${port}...`)
 })
+
+
+app.listen(8000, ()=>{
+    console.log("listening  to requests 3000")
+});
