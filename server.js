@@ -16,8 +16,12 @@ mongoose
     console.log("connection succesfull")
 })
 
-app.use(express.static(path.resolve(__dirname, "./client/build")));
 
+
+app.use(express.static(path.join(__dirname, 'client/build')));
+app.get('*', (req, res) => { 
+  res.sendFile(path.join(__dirname + '/client/build/index.html')) 
+});
 
 
 const port = process.env.PORT || 9000;
