@@ -5,7 +5,7 @@ import  {Sports} from '../components/Sports'
 import  {Tecnology} from '../components/Tecnology'
 import  {International} from '../components/International'
 import  {Society} from '../components/Society'
-import  {WeatherCard} from '../components/Weather-card'
+
 
 import { Footer } from '../components/Footer';
 
@@ -28,7 +28,7 @@ function MainPage() {
             <International/>
             <Sports/>
             <Tecnology/>
-            <WeatherCard/>
+           
 
 
 

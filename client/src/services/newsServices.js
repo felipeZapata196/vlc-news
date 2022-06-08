@@ -1,41 +1,6 @@
 import axios from "axios";
 import { showAlert } from './alerts';
 
-export const get = async () =>{
-    try{
-        const res = await axios({
-            method: 'GET',
-            url:'http://localhost:9000/api/home/national',
-
-        });  
-       console.log(res.data, 'tu madre')
-
-    }catch(err){
-       console.log('error', err)
-    }
-}
-export const getMainNew = () => {
-    return new Promise(async (resolve,reject)=>{
-        
-       
-            axios({
-                method: 'GET',
-                url: `http://localhost:9000/api/home/national`
-               
-            })
-            .then((response)=> {
-               
-                resolve(response.data);
-           
-               
-            })
-            .catch((err) =>{
-                reject(err)
-            });
-        
-    })
-
-}
 
 export const postNew = async(title, content) => {
     return new Promise((resolve,reject)=>{

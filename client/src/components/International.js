@@ -3,7 +3,7 @@ import axios from "axios";
 
 
 
-const baseURL = "http://localhost:9000/api/home/international";
+const baseURL = "/api/home/international";
 
 
 export const International= () =>{

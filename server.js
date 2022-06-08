@@ -2,6 +2,8 @@ const app = require('./app');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 dotenv.config({path: './config.env'})
+const express = require('express');
+const path = require('path');
 
 const db = process.env.DB.replace(
     '<PASSWORD>', 
@@ -15,15 +17,12 @@ mongoose
 })
 
 
+app.use(express.static(
+    path.join(__dirname,'../client/build')));
 
 
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 9000;
 const server = app.listen(port, ()=>{
   console.log(`App runing on port ${port}...`)
 })
-
-
-app.listen(9000, ()=>{
-    console.log("listening  to requests 3000")
-});
