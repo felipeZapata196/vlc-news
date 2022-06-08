@@ -10,7 +10,9 @@
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "build": "npm run build --prefix client"
+    "build": "cd client/ && yarn install && yarn build"
+
+    
   },
   "author": "Felipe Zapata",
   "license": "ISC",
