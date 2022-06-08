@@ -10,11 +10,11 @@ const app = express();
 app.use(express.json()); 
 
 
-app.use(express.static(path.join(__dirname, 'public')));
 
 
 
 
+app.use(express.static(path.join(__dirname, 'client/build')));
 
 if (process.env.NODE_ENV === 'development') {
     app.use(morgan('dev'));
@@ -28,6 +28,9 @@ app.use((req, res, next) => {
   });
 app.use('/api/home', blogRouter);
 app.use('/api/home/users', userRouter);
+app.get('*', (req, res) => { 
+  res.sendFile(path.join(__dirname + '/client/build/index.html')) 
+});
 
 
 app.all('*', (req, res, next) => {
