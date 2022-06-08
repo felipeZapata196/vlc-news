@@ -3,7 +3,7 @@ import axios from "axios";
 
 
 
-const baseURL = "http://localhost:9000/api/home/society";
+const baseURL = "/api/home/society";
 
 
 export const Society= () =>{
@@ -29,8 +29,13 @@ export const Society= () =>{
 
         <div class= "mainPage">
 
+      <div>
+      <div></div>
+      <div></div>
+
+      </div>
         <a  href={post[0]._id}>
-        <div class="modulo2">
+        <div class="modulo8">
           <img class="image"  alt="" src={post[1].image}/>
           <div className="divHeader">
             <div className="titular">{post[0].title}</div>
@@ -40,7 +45,7 @@ export const Society= () =>{
         </a>
 
         <a  href={post[1]._id}>
-        <div class="modulo2">
+        <div class="modulo8">
           <img class="image" alt="S" src={post[1].image}/>
           <div className="divHeader">
             <div className="titular">{post[1].title}</div>
@@ -50,7 +55,7 @@ export const Society= () =>{
         </a>
 
         <a  href={post[2]._id}>
-        <div class="modulo2">
+        <div class="modulo8">
             <img class="image" alt="" src={post[2].image}/>
             <div className="divHeader">
 
@@ -64,7 +69,7 @@ export const Society= () =>{
         
 
         <a c href={post[3]._id}>
-        <div class="modulo2">
+        <div class="modulo8">
            <img class="image" alt="" src={post[3].image}/>
            <div className="divHeader">
 
@@ -76,7 +81,7 @@ export const Society= () =>{
         </a>
 
         <a href={post[5]._id}>
-        <div class="modulo2">
+        <div class="modulo8">
           <img class="image"  alt="" src={post[5].image}/>
           <div className="divHeader">
               <div className="titular">{post[5].title}</div>
@@ -87,7 +92,7 @@ export const Society= () =>{
 
         
         <a href={post[4]._id}>
-        <div class="modulo2">
+        <div class="modulo8">
            <img class="image"  alt=""src={post[4].image}/>
            <div className="divHeader">
               <div className="titular">{post[4].title}</div>

@@ -3,7 +3,7 @@ import axios from "axios";
 
 
 
-const baseURL = "http://localhost:9000/api/home/tecnology";
+const baseURL = "/api/home/tecnology";
 
 
 export const Tecnology= () =>{

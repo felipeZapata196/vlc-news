@@ -6,7 +6,7 @@ export const postNew = async(title, content) => {
     return new Promise((resolve,reject)=>{
         axios({
             method: 'POST',
-            url: 'http://localhost:9000/api/home/',
+            url: '/api/home/',
             data: {
                 title,
                 content,
@@ -36,7 +36,7 @@ export const login = async (email, password) => {
        
     const res= await axios({
         method: 'POST',
-        url: 'http://localhost:9000/api/home/users/login',
+        url: '/api/home/users/login',
         data: {
             email,
             password
@@ -63,7 +63,7 @@ export const signUp = async (name, email, password, passwordConfirm) => {
     try{
     const res= await axios({
         method: 'POST',
-        url: 'http://localhost:9000/api/home/users/signup',
+        url: '/api/home/users/signup',
         data: {
             name,
             email,

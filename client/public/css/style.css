@@ -54,6 +54,15 @@ li a {
   font-size: 1.6rem;
   
 }
+.modulo8 {
+  width: 48%;
+  height: 40vh;
+  display: inline-block;
+  padding: 8px;
+  position: relative;
+  font-size: 1.6rem;
+  
+}
 .modulo7 {
   width: 23%;
   height: 40vh;

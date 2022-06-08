@@ -3,7 +3,7 @@ import axios from "axios";
 
 
 
-const baseURL = "http://localhost:9000/api/home/sports";
+const baseURL = "/api/home/sports";
 
 
 export const Sports= () =>{
