@@ -4,7 +4,6 @@ const path = require('path');
 const globalErrorHandler = require('./controllers/errorController');
 const blogRouter = require('./routes/blogRouter');
 const userRouter = require('./routes/userRouter');
-const viewsRouter = require('./routes/viewsRouter')
 cors = require("cors");
 const app = express();
 
@@ -29,7 +28,7 @@ app.use((req, res, next) => {
   });
 app.use('/api/home', blogRouter);
 app.use('/api/home/users', userRouter);
-app.use('/', viewsRouter)
+
 
 app.all('*', (req, res, next) => {
     next(new AppError(`Can't find ${req.originalUrl} on this server!`, 404));
