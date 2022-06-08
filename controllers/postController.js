@@ -5,34 +5,53 @@ const catchAsync = require('./../utils/catchAsync');
 const AppError = require('./../utils/AppError');
 
 
-exports.categoryScience = (req, res, next)=> {
-    req.query.limit = '5';
-    req.query.filter = 'science';
-    req.query.fields = 'title, autor, ratings';
+exports.getNational = (req, res, next)=> {
+    req.query.limit = '2';
+    req.query.category = 'national-politics';
+    req.query.fields = 'title, autor, ratings, content, image';
+
+    next();
+
+}
+exports.getInternational = (req, res, next)=> {
+    req.query.limit = '4';
+    req.query.category = 'international';
+    req.query.fields = 'title, autor, ratings, content, image';
+
+    next();
+    
+
+}
+exports.getSociety = (req, res, next)=> {
+    req.query.limit = '6';
+    req.query.category = 'society';
+    req.query.fields = 'title, autor, ratings, content, image';
+
+    next();
+    
+
+}
+exports.getSports = (req, res, next)=> {
+    req.query.limit = '4';
+    req.query.category = 'sports';
+    req.query.fields = 'title, autor, ratings, content, image';
 
     next();
     
 
 }
 
-exports.categoryPhylosophy = (req, res, next)=> {
-    req.query.limit = '5';
-    req.query.filter = 'phylosophy';
-    req.query.fields = 'title, autor, ratings';
+exports.getTecnology = (req, res, next)=> {
+    req.query.limit = '3';
+    req.query.category = 'tecnology';
+    req.query.fields = 'title, autor, ratings, content, image';
 
     next();
     
 
 }
-exports.categoryMusic = (req, res, next)=> {
-    req.query.limit = '5';
-    req.query.filter = 'music';
-    req.query.fields = 'title, autor, ratings';
 
-    next();
-    
 
-}
 exports.getAllPosts = catchAsync(async(req, res,next)=>{
 
     const features = new ApiFeatures(Blog.find(), req.query)
@@ -46,9 +65,9 @@ exports.getAllPosts = catchAsync(async(req, res,next)=>{
     res.status(200).json({
         status: 'succes',
         results: posts.length,
-        data: [
-            posts
-        ]
+        posts
+        
+        
     })
 
 });
@@ -100,7 +119,7 @@ exports.deletePost = catchAsync(async(req, res, next)=> {
 }
 res.status(400).json({
     status: 'success',
-    data: nul
+    data: null
 })
 
 });

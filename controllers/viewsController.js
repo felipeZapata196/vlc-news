@@ -22,3 +22,18 @@ exports.prueba = async(req, res) => {
 };
 
 
+exports.getPost = async(req, res) => {
+  const post = await Entrada.findById(req.params.id);
+    if(!post){
+      return(next (new AppError('No existe ningún post con este Id', 404 )));
+
+  }
+  res.status(200).json({
+      status: 'succes',
+      post
+    
+
+});
+
+  
+}

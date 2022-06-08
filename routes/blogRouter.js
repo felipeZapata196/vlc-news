@@ -6,15 +6,16 @@ const router = express.Router();
 
 
 
-router.route('/autorStats').get(postController.getPostStats);
-
-router.route('/science').get(postController.categoryScience);
-router.route('/phylosophy').get(postController.categoryPhylosophy);
-router.route('/music').get(postController.categoryMusic);
+//that is for the main page. is to render the most importants news of each category.
+router.route('/international').get(postController.getInternational, postController.getAllPosts);
+router.route('/national').get(postController.getNational, postController.getAllPosts);
+router.route('/society').get(postController.getSociety, postController.getAllPosts);
+router.route('/sports').get(postController.getSports, postController.getAllPosts);
+router.route('/tecnology').get(postController.getTecnology, postController.getAllPosts);
 
 router
 .route('/')
-.get(authController.protect, postController.getAllPosts)
+.get( postController.getAllPosts)
 .post(postController.createPost);
 
 router

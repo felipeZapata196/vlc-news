@@ -5,6 +5,7 @@ const globalErrorHandler = require('./controllers/errorController');
 const blogRouter = require('./routes/blogRouter');
 const userRouter = require('./routes/userRouter');
 const viewsRouter = require('./routes/viewsRouter')
+cors = require("cors");
 const app = express();
 
 app.use(express.json()); 
@@ -23,7 +24,7 @@ if (process.env.NODE_ENV === 'development') {
     app.use(morgan('dev'));
   }
   
-
+app.use(cors());
 app.use((req, res, next) => {
     req.requestTime = new Date().toISOString();
     // console.log(req.headers);

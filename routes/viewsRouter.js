@@ -7,5 +7,9 @@ const router = express.Router();
 
 
 router.route('/').get(viewsController.prueba)
+router.route('/:id').get(viewsController.getPost)
+
+
+
 
 module.exports = router;

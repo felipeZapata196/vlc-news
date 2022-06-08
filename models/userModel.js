@@ -60,7 +60,7 @@ UserSchema.pre('save', async function(next) {
 
     if(!this.isModified('password')) return next();
 
-    this.password = await bcryp.hash(this.password, 12);
+    this.password = await bcrypt.hash(this.password, 12);
     this.passwordConfirm = undefined;
     next()
 });

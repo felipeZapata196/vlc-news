@@ -1,76 +1,246 @@
 [
     {
       
-      "title": "Ensayo clasico sobre naturaleza",
-      "category": "science",
+      "title": "La tecnología que reutiliza residuos nucleares para generar electricidad durante siglos",
+      "category": "tecnology",
       "large": 500,
       "content": "",
       "autor": "Marcos rosa",
       "visits": 10,
       "lectureTime": 3 ,
       "likes": 37,
-      "rating": 5.5
+      "rating": 5.5,
+      "image": "../images/joe.jpg"
+    },
+    {
+      
+      "title": "En la Web 3.0, mis datos son míos y los monetizo... si quiero",
+      "category": "tecnology",
+      "large": 500,
+      "content": "",
+      "autor": "Marcos rosa",
+      "visits": 10,
+      "lectureTime": 3 ,
+      "likes": 37,
+      "rating": 5.5,
+      "image": "../images/amazon.jpg"
+    },
+    {
+      
+      "title": "Aviso en Tesla: 'Si no apareces por la oficina, renuncias'",
+      "category": "tecnology",
+      "large": 500,
+      "content": "",
+      "autor": "Marcos rosa",
+      "visits": 10,
+      "lectureTime": 3 ,
+      "likes": 37,
+      "rating": 5.5,
+      "image": "../images/elon.jpg"
+    },
+    {
+      
+      "title": "Xiaomi retira el soporte a 10 nuevos dispositivos entre ellos algunos de sus superventas",
+      "category": "tecnology",
+      "large": 500,
+      "content": "international",
+      "autor": "Marcos rosa",
+      "visits": 10,
+      "lectureTime": 3 ,
+      "likes": 37,
+      "rating": 5.5,
+      "image": "../images/xijiping.jpg"
+     
     }, 
     {
       
         "title": "Ensayo sobre la productividad del tiempo",
-        "category": "scince",
+        "category": "international",
         "content": "",
         "large": 500,
         "autor": "Jairo varela",
         "visits": 30,
         "lectureTime": 4,
         "likes": 10,
-        "rating": 4.2
+        "rating": 4.2,
+        "image": "../images/merkel.jpg"
     }, 
     {
       
         "title": "Ensayo sobre la majestuosidad de la música",
-        "category": "music",
+        "category": "international",
         "content": "",
         "large": 430,
         "autor": "Jairo varela",
         "visits": 40,
         "lectureTime": 3,
         "likes": 25,
-        "rating": 5.9
+        "rating": 5.9,
+        "image": "../images/joe.jpg"
     },
-     {
-      
-        "title": "Breve biografia de Maria callas",
-        "category": "music",
-        "content": "",
-        "large": 800,
-        "autor": "Joseph martinez",
-        "visits": 98,
-        "lectureTime": 5,
-        "likes": 50,
-        "rating": 7.2
-      },
+   
       {
       
         "title": "El amor por conocer mundo",
-        "category": "phylosophy",
+        "category": "society",
         "content": "",
         "large": 559,
         "autor": "Fran medrano",
         "visits": 200,
         "lectureTime": 5,
         "likes": 38,
-        "rating": 6.6
+        "rating": 6.6,
+        "image": "../images/sanidad.jpg"
+      },
+      {
+      
+        "title": "El amor por conocer mundo",
+        "category": "national-politics",
+        "content": "",
+        "large": 559,
+        "autor": "Fran medrano",
+        "visits": 200,
+        "lectureTime": 5,
+        "likes": 38,
+        "rating": 6.6,
+        "image": "../images/rajoy.jpg"
+      },
+
+      {
+      
+        "title": "El amor por conocer mundo",
+        "category": "society",
+        "content": "",
+        "large": 559,
+        "autor": "Fran medrano",
+        "visits": 200,
+        "lectureTime": 5,
+        "likes": 38,
+        "rating": 6.6,
+        "image": "../images/yolanda.jpg"
       },
       {
       
         "title": "El problema del trigo",
-        "category": "phylosophy",
+        "category": "society",
         "content": "",
         "large": 300,
         "autor": "Marcos rosa",
         "visits": 130,
         "lectureTime": 3,
         "likes": 37,
-        "rating": 4.2
+        "rating": 4.2,
+        "image": "../images/marlasca.jpg"
       }
+      ,
+      {
+      
+        "title": "El problema del trigo",
+        "category": "national-politics",
+        "content": "sports",
+        "large": 300,
+        "autor": "Marcos rosa",
+        "visits": 130,
+        "lectureTime": 3,
+        "likes": 37,
+        "rating": 4.2,
+        "image": "../images/juan-carlos.jpg"
+      },
+      {
+      
+        "title": "El problema del trigo",
+        "category": "society",
+        "content":"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+        "large": 300,
+        "autor": "Marcos rosa",
+        "visits": 130,
+        "lectureTime": 3,
+        "likes": 37,
+        "rating": 4.2,
+        "image": "../images/interior.jpg"
+      },
+      {
+      
+        "title": "El problema del trigo",
+        "category": "society",
+        "content": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+        "large": 300,
+        "autor": "Marcos rosa",
+        "visits": 130,
+        "lectureTime": 3,
+        "likes": 37,
+        "rating": 4.2,
+        "image": "../images/feminismo.jpg"
+      },
+      {
+      
+        "title": "Hartazgo dentro del sector sanitario",
+        "category": "society",
+        "content": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+        "large": 300,
+        "autor": "Marcos rosa",
+        "visits": 130,
+        "lectureTime": 3,
+        "likes": 37,
+        "rating": 4.2,
+        "image": "../images/sanidad.jpg"
+      }
+      ,
+      {
+      
+        "title": "El problema del trigo",
+        "category": "sports",
+        "content": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+        "large": 300,
+        "autor": "Marcos rosa",
+        "visits": 130,
+        "lectureTime": 3,
+        "likes": 37,
+        "rating": 4.2,
+        "image": "../images/tebas.jpg"
+      }
+      ,
+      {
+      
+        "title": "El problema del trigo",
+        "category": "sports",
+        "content": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+        "large": 300,
+        "autor": "Marcos rosa",
+        "visits": 130,
+        "lectureTime": 3,
+        "likes": 37,
+        "rating": 4.2,
+        "image": "../images/xavi.jpg"
+      },
+      {
+      
+        "title": "El problema del trigo",
+        "category": "sports",
+        "content": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+        "large": 300,
+        "autor": "Marcos rosa",
+        "visits": 130,
+        "lectureTime": 3,
+        "likes": 37,
+        "rating": 4.2,
+        "image": "../images/messi.jpg"
+      },
+      {
+      
+        "title": "El problema del trigo",
+        "category": "sports",
+        "content": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+        "large": 300,
+        "autor": "Marcos rosa",
+        "visits": 130,
+        "lectureTime": 3,
+        "likes": 37,
+        "rating": 4.2,
+        "image": "../images/tebas.jpg"
+      }
+
+
 
 ]
 

@@ -11,11 +11,9 @@ const BlogSchema = new mongoose.Schema(
             type: String,
             required: [true, 'a post must have a category'],
             enum: {
-                values: ['science', 'music', 'philosophy'],
+                values: ['international', 'society', 'national-politics',  'sports', 'tecnology'],
                 message: 'la categoria tiene que ser: '
             }
-            
-
         },
         content: {
             type: String
@@ -41,6 +39,10 @@ const BlogSchema = new mongoose.Schema(
         rating: {
             type: Number
 
+        },
+        image: {
+            type: String,
+            required: [true, 'la noticia debe tener una imagen de portada']
         }
     
 
