@@ -12,7 +12,7 @@ function Category() {
 
     let {cat} = useParams() 
     
-    const baseURL = `http://localhost:9000/api/home/${cat}`
+    const baseURL = `/api/home/${cat}`
     
 
    
