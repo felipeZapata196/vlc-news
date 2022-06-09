@@ -5,7 +5,8 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 
 export const Footer = () => {
   return (
-  <div style={{height:'30vh'}}>
+   
+  <div style={{height:'30vh', }}>
    <div style={header}>
    <div style={{display:'flex',width:'80%', justifyContent:'center', }}>
 
@@ -32,30 +33,32 @@ export const Footer = () => {
           <div className="foot-modulo">
               <div style={child}>
                     <h3>About us</h3>
-                    <p>hola</p>
-                    <p>hola</p>
+                    <p>esta web es parte de mi portfolio. </p>
+                    
                  </div>
               </div>
            
               <div className="foot-modulo">
                  <div style={child}>
                     <h3>Contact</h3>
-                    <p>hola</p>
-                    <p>hola</p>
+                    <p>vlc-news@gmail.com</p>
+                    <p>+34 6829232322</p>
                  </div>
               </div>
               <div className="foot-modulo">
               <div style={child}>
                     <h3>Categorías</h3>
-                    <p>hola</p>
-                    <p>hola</p>
+                    <p>Nacional</p>
+                    <p>Social</p>
+                    <p>internacional</p>
                  </div>
               </div>
               <div className="foot-modulo">
               <div style={child}>
                     <h3>Enlaces útiles</h3>
-                    <p>hola</p>
-                    <p>hola</p>
+                    
+                    <p>política privacidad</p>
+                    
                  </div>
               </div>
               
@@ -67,6 +70,7 @@ export const Footer = () => {
        <p>© 2022 Copyright</p>
        </div>
     </div>
+   
   );
 }
 
@@ -89,13 +93,13 @@ const header ={
   width:'100%',
   alignItems: 'center',
   display: 'flex',
-  color: '#757575'
+  color: '#757575',
+  
 }
 const foot= {
   
   textAlign: 'center',
   color: '#757575',
-  backgroundColor: '#eeeeee',
   position: 'bottom'
  
 }
@@ -108,5 +112,6 @@ const listContainer ={
 const child ={
   display: 'block',
   textAlign:'center'
+
   
 }

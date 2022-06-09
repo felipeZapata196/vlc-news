@@ -4,9 +4,16 @@ const mongoose = require('mongoose');
 const catchAsync = require('./../utils/catchAsync');
 const AppError = require('./../utils/AppError');
 
+exports.getTopFive =  (req, res, next)=> {
+    req.query.limit = '4';
+    req.query.sort = 'visits';
+    req.query.fields = 'title, autor, ratings, content, image';
 
+    next();
+
+}
 exports.getNational = (req, res, next)=> {
-    req.query.limit = '2';
+    req.query.limit = '5';
     req.query.category = 'national-politics';
     req.query.fields = 'title, autor, ratings, content, image';
 
@@ -42,7 +49,7 @@ exports.getSports = (req, res, next)=> {
 }
 
 exports.getTecnology = (req, res, next)=> {
-    req.query.limit = '3';
+    req.query.limit = '4';
     req.query.category = 'tecnology';
     req.query.fields = 'title, autor, ratings, content, image';
 

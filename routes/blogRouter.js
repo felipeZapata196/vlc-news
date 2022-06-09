@@ -12,6 +12,7 @@ router.route('/national').get(postController.getNational, postController.getAllP
 router.route('/society').get(postController.getSociety, postController.getAllPosts);
 router.route('/sports').get(postController.getSports, postController.getAllPosts);
 router.route('/tecnology').get(postController.getTecnology, postController.getAllPosts);
+router.route('/top-five').get(postController.getTopFive, postController.getAllPosts);
 
 router
 .route('/')

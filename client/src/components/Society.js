@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from "react"
 import axios from "axios";
+import { Weather } from "./Weather";
 
 
 
@@ -29,79 +30,84 @@ export const Society= () =>{
 
         <div class= "mainPage">
 
-      <div>
-      <div></div>
-      <div></div>
+          <div style={{display: 'flex'}}>
+          <div style={{width: '60%'}}>
+                  <a  href={post[0]._id}>
+                <div class="modulo8">
+                  <img class="image"  alt="" src={post[1].image}/>
+                  <div className="divHeader">
+                    <div className="titular">{post[0].title}</div>
+                    <div className="category"> <span> <span style={vl}></span>Actualidad social</span></div>
+                  </div>
+                </div>
+                </a>
 
-      </div>
-        <a  href={post[0]._id}>
-        <div class="modulo8">
-          <img class="image"  alt="" src={post[1].image}/>
-          <div className="divHeader">
-            <div className="titular">{post[0].title}</div>
-            <div className="category"> <span> <span style={vl}></span>Actualidad social</span></div>
+                <a  href={post[1]._id}>
+                <div class="modulo8">
+                  <img class="image" alt="S" src={post[1].image}/>
+                  <div className="divHeader">
+                    <div className="titular">{post[1].title}</div>
+                    <div className="category"> <span> <span style={vl}></span>Actualidad social</span></div>
+                  </div>
+                </div>
+                </a>
+
+                <a  href={post[2]._id}>
+                <div class="modulo8">
+                    <img class="image" alt="" src={post[2].image}/>
+                    <div className="divHeader">
+
+                      <div className="titular">{post[2].title}</div>
+                      <div className="category"> <span> <span style={vl}></span>Actualidad social</span></div>
+                    </div>
+                      
+                </div>
+                </a>
+
+                
+
+                <a  href={post[3]._id}>
+                <div class="modulo8">
+                  <img class="image" alt="" src={post[3].image}/>
+                  <div className="divHeader">
+
+                      <div className="titular">{post[3].title}</div>
+                      <div className="category"> <span> <span style={vl}></span>Actualidad social</span></div>
+                    </div>
+                      
+                </div>
+                </a>
+
+                <a href={post[5]._id}>
+                <div class="modulo8">
+                  <img class="image"  alt="" src={post[5].image}/>
+                  <div className="divHeader">
+                      <div className="titular">{post[5].title}</div>
+                      <div className="category"> <span> <span style={vl}></span>Actualidad social</span></div>
+                  </div>
+                </div>
+                </a>
+
+                
+                <a href={post[4]._id}>
+                <div class="modulo8">
+                  <img className="image"  alt=""src={post[4].image}/>
+                  <div className="divHeader">
+                      <div className="titular">{post[4].title}</div>
+                      <div className="category"> <span> <span style={vl}></span>Actualidad social</span></div>
+                  </div>
+                      
+                </div>
+                </a>
+
+
+
+
           </div>
-        </div>
-        </a>
+          <Weather/>
 
-        <a  href={post[1]._id}>
-        <div class="modulo8">
-          <img class="image" alt="S" src={post[1].image}/>
-          <div className="divHeader">
-            <div className="titular">{post[1].title}</div>
-            <div className="category"> <span> <span style={vl}></span>Actualidad social</span></div>
           </div>
-        </div>
-        </a>
-
-        <a  href={post[2]._id}>
-        <div class="modulo8">
-            <img class="image" alt="" src={post[2].image}/>
-            <div className="divHeader">
-
-              <div className="titular">{post[2].title}</div>
-              <div className="category"> <span> <span style={vl}></span>Actualidad social</span></div>
-            </div>
-              
-        </div>
-        </a>
-
-        
-
-        <a c href={post[3]._id}>
-        <div class="modulo8">
-           <img class="image" alt="" src={post[3].image}/>
-           <div className="divHeader">
-
-              <div className="titular">{post[3].title}</div>
-              <div className="category"> <span> <span style={vl}></span>Actualidad social</span></div>
-            </div>
-               
-        </div>
-        </a>
-
-        <a href={post[5]._id}>
-        <div class="modulo8">
-          <img class="image"  alt="" src={post[5].image}/>
-          <div className="divHeader">
-              <div className="titular">{post[5].title}</div>
-              <div className="category"> <span> <span style={vl}></span>Actualidad social</span></div>
-          </div>
-        </div>
-        </a>
-
-        
-        <a href={post[4]._id}>
-        <div class="modulo8">
-           <img class="image"  alt=""src={post[4].image}/>
-           <div className="divHeader">
-              <div className="titular">{post[4].title}</div>
-              <div className="category"> <span> <span style={vl}></span>Actualidad social</span></div>
-          </div>
-               
-        </div>
-        </a>
-
+      
         
         </div>
         </div> 

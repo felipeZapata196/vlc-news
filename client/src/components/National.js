@@ -35,7 +35,7 @@ export const National= () =>{
             <img className="image" alt=""   src={post[1].image} />
             <div className="divHeader">
 
-                <div className="titular">{post[0].title}</div>
+                <div className="titular">{post[1].title}</div>
                 <div className="category"> <span> <span style={vl}> </span>Politica nacional</span></div>
             </div>
             
@@ -59,10 +59,10 @@ export const National= () =>{
             
           <div style={card}>
             <a href={post[1]._id}>
-              <img className="image"   src={post[1].image} />
+              <img className="image"   src={post[2].image} />
               <div className="divHeader">
 
-              <div className="titular">{post[0].title}</div>
+              <div className="titular">{post[2].title}</div>
               <div className="category"> <span> <span style={vl}></span>Politica nacional</span></div>
               </div>
             </a>
@@ -72,9 +72,9 @@ export const National= () =>{
 
             <a href={post[0]._id}>
 
-                  <img className="image" alt=""  src={post[0].image} />
+                  <img className="image" alt=""  src={post[3].image} />
                   <div className="divHeader">
-                    <div className="titular">{post[0].title}</div>
+                    <div className="titular">{post[3].title}</div>
                     <div className="category"> <span > <span style={vl}></span>Politica nacional</span></div>
                   </div>
             </a>
@@ -85,7 +85,7 @@ export const National= () =>{
             <a href={post[1]._id}>
               <img className="image" alt=""   src={post[1].image} />
               <div className="divHeader">
-                <div className="titular" >{post[0].title}</div>
+                <div className="titular" >{post[1].title}</div>
                 <div className="category"> <span><span style={vl}></span>Politica nacional</span></div>
               </div>
             </a>

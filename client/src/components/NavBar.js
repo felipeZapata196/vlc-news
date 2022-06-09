@@ -56,9 +56,9 @@ export const NavBar= (props) =>{
                 <h1><a href="/" style={{color:'#fff'}}>Valencia news</a></h1>
                 
                      <a href="/login">
-                     <div style={{padding: '15px', display: 'flex'}}>
+                     <div style={{marginLeft:'1rem',padding: '20px', display: 'flex'}}>
                         <AccountCircleIcon
-                        style={{fontSize:'2.6rem', color: '#fff'}}/>
+                        style={{fontSize:'2rem', color: '#fff'}}/>
                         <span style={{padding:'0.5rem', color: '#fff'}}>Login</span>
                         </div>
                     </a> 
@@ -82,6 +82,7 @@ export const NavBar= (props) =>{
              
              
                     <InputAdorments
+                    
                     />
                     
 
